@@ -14,7 +14,7 @@ public class PRM2_1_RECU {
     public int maxrecu(int[] a, int index) {
 
         if (index > 0) {
-            return Math.max(a[index], maxrecu(a, index - 1));
+            return Math.max(a[index], maxrecu(a, index - 1));//MARCA ERROR AQUI HELP!!!!
         } else {
             return a[0];
         }
